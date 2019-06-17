@@ -1,13 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
+import Dashboard_index from './Custom_Code/Dashboard_index';
 
-function Dasboard_index() {
+function App() {
   return (
-    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
+       <div className="App">
+     <Dashboard_index/>
+    </div>
   );
 }
 
-export default Dasboard_index;
+export default App;

@@ -1,12 +1,16 @@
 import React from 'react';
+import Button from "@material-ui/core/Button";
+import Card from '@material-ui/core/Card';
 
 
-function App() {
+function Dashboard_index() {
   return (
-    <div className="App">
-     <Dashboard_index/>
-    </div>
+   <Button variant="contained" color="primary">
+      Hello World
+    </Button>
+
+
   );
 }
 
-export default App;
+export default Dashboard_index;
