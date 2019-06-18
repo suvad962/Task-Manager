@@ -1,15 +1,16 @@
 import React from 'react';
 import Button from "@material-ui/core/Button";
+import { Spinner } from 'reactstrap';
 import Card from '@material-ui/core/Card';
+import './Sidebar.js';
+import Side_bar from "./Sidebar";
 
 
 function Dashboard_index() {
   return (
-   <Button variant="contained" color="primary">
-      Hello World
-    </Button>
-
-
+      <div>
+          <Side_bar/>
+      </div>
   );
 }
 
